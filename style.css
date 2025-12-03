@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fdfdfd;
+    color: #333;
+}
+
+header {
+    background: #0b4d94;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('assets/images/morgedik-baraj.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.section {
+    padding: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.bg-light {
+    background: #f0f4ff;
+}
+
+.bg-dark {
+    background: #1b1b1b;
+    color: #eee;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.responsive-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.specs li {
+    margin: 8px 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0b4d94;
+    color: white;
+    margin-top: 30px;
+}
